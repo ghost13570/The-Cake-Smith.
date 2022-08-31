@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Login</title>
+    <style>
+      
+        .gradient-custom-3 {
+/* fallback for old browsers */
+background: #84fab0;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+/* fallback for old browsers */
+background: #84fab0;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+    
+    </style>
+
+</head>
+<body>
+  <section class="vh-100" style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp')">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-xl-10">
+        <div class="card" style="border-radius: 0.5rem;">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-5 d-none d-md-block ">
+              <img src="https://static.wixstatic.com/media/e1c78c_c1bbc677e5ad4ee8849ce097f0007901~mv2_d_1200_1616_s_2.jpg/v1/fill/w_530,h_660,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e1c78c_c1bbc677e5ad4ee8849ce097f0007901~mv2_d_1200_1616_s_2.jpg"
+                alt="login form" class="img-fluid" style="border-radius: 0.5rem 0 0 0.5rem;"  height="600px" width="530px"/>
+            </div>
+            <div class="col-md-6 col-lg-7 d-flex align-items-center">
+              <div class="card-body p-4 p-lg-5 text-black">
+
+        <form action="/auth" method="post" class="was-validated">
+        <div class="d-flex align-items-center ">
+                   
+                    <span class="h3 fw-bold pb-2">Login</span>
+                  </div>
+
+                    <div class="form-group ">
+               <div class="form-outline mb-3">
+                    <input type="text" name="first_name" id="first_name" class="form-control form-control-lg" placeholder="First Name" required/>
+                    </div>
+                  
+                                                                <!-- <div class="invalid-feedback"></div>
+                                                                  <div class="valid-feedback"></div>
+                                                               <div class="form-group">
+                                                               <label for="first_name">First Name:</label>
+                                                              <input type="text" name="first_name" id="first_name" class="form-control" placeholder="Enter your first name here" required>
+                                                              <div class="valid-feedback">Correct Name</div>
+                                                              <div class="invalid-feedback">Please enter your name</div>
+                                                            </div>-->
+
+
+              <div class="form-group">
+               <div class="form-outline mb-3">
+                    <input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="E-mail" required/>
+                    
+                  
+                                                                 <div class="invalid-feedback"></div>
+                                                                  <div class="valid-feedback"></div>
+                  </div>      
+
+
+                 <div class="form-group">
+               <div class="form-outline mb-3">
+                    <input type="password" name="password"  id="password" class="form-control form-control-lg" placeholder="Password" required/>
+                    
+                  
+                                                                 <div class="invalid-feedback"></div>
+                                                                  <div class="valid-feedback"></div>
+                  </div>                                                                        <!--<div class="form-group">
+                                                                                      <label for="password">Password:</label>
+                                                                                      <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password here" required>
+                                                                                      <div class="valid-feedback">Correct password</div>
+                                                                                      <div class="invalid-feedback">Please enter your password</div>
+                                                                                    </div>-->
+            <div class="pt-1 mb-0">
+                   <button type="submit"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Login</button>
+                </div>
+                     <a class="small text-muted" href="#!">Forgot password?</a>
+                  <p class=" lg-2" style="color: #393f81;">Don't have an account? <a 
+                      style="color: #393f81;" href="signin.html">Register here</a></p>
+                  </div>
+        </form>
+    </div>
+</body>
+</html>
