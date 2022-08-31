@@ -1,0 +1,91 @@
+body{
+    background-color:white;
+    
+}
+.nav-item{
+    font-size: 20px;
+    margin-left: 70px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a.nav-link{
+    color: black;
+    font-weight: lighter;
+}
+
+    
+
+nav{
+    background-color: rgb(255, 254, 254);
+}
+.box{
+    background-color: rgb(248,236,228);
+}
+.fonty{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.box2{
+    background-color: white;
+   width: 40%;
+   height: 50px;
+    text-align:center;
+ padding-top: 10px;
+ font-weight: bold;
+}
+.box2:hover{
+    border: 2px black solid;
+}
+.footer{
+    background-color: rgb(248,236,228);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.all{
+    background-image: url('download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 25px;
+}
+.alingme{
+    margin-right: 30px;
+}
+
+
+
+.b1{
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top: 0px;
+    width: 84.7%;
+      }
+
+      .about{
+        height: 100px;
+       width: 84.7%;
+        background-color: #ff1493;
+background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+text-align: center;
+      }
+      .rickroll{
+        color: black;
+      }
+      .rickroll:hover{
+        color: black;
+        text-decoration: none;
+      }
+
+     .cakesmith{
+        font-family: 'Courier New', Courier, monospace;
+     }
